@@ -1,19 +1,38 @@
 # Memory-Management-
 
--Program about memory management by using 3 Algorithms:
+-Program about memory management by using the following 3 Algorithms:
 
 1-First-Fit
 2-Best-Fit
 3-Worst-Fit
 
--The porgram asks the user to enter the following:
+-Program Description:
 
-1-Number of Partitions
+memory allocation simulator to allocate
 
-2-The size of each Partition
+variable-sized partitions of the memory to a given sequence of
 
-3-Number of Process requests
+processes requests. Apply different allocation policies:
 
-4-Size of each process request
+1. First-Fit policy.
 
-5-The user choose one of the 3 algorithms.
+2. Best-Fit policy.
+
+3. Worst-Fit policy.
+
+● Add compaction (as option for the user): in compaction you shuffle the memory contents so as to place all free memory together in one large block.
+
+Input will be as follows:
+- Number of partition
+
+- Partition name and its size.
+
+- Number of process requests.
+
+- Process name and its size.
+
+- Selected policy by the user.
+
+_________________________________________________________________________________________________________________________________
+
+-You can reach me via E-Mail: bedosamir48@gmail.com
